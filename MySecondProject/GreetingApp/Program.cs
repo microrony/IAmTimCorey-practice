@@ -13,3 +13,4 @@ firstName = Console.ReadLine();
 Console.WriteLine();
 Console.WriteLine("Hello " + firstName);
 Console.WriteLine("Thank you for using our Greeting Application");
+Console.ReadLine();
