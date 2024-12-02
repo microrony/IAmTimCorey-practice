@@ -18,18 +18,18 @@ Console.Write("Please type your age: ");
 readResult = Console.ReadLine();
 int.TryParse(readResult, out age);
 
-string userName;
+string formettedName;
 
-if (firstName == "Bob" || firstName == "Sue")
+if (firstName.ToLower() == "bob" || firstName.ToLower() == "sue")
 {
-    userName = $"Professor {firstName}";
+    formettedName = $"Professor {firstName}";
 }
 else
 {
-    userName = firstName;
+    formettedName = firstName;
 }
 
-Console.WriteLine($"\nHi {userName},");
+Console.WriteLine($"\nHi {formettedName},");
 
 if (age < 21)
 {
