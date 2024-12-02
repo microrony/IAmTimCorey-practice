@@ -10,12 +10,14 @@ else
 	formattedName = {firstName}
 
 if age < 21 
+	
 	Hi {formattedName},
 
 	I recommend you to wait {21 - age} years to start this class.
 
 	Thanks you.
 else 
+	
 	Hi {formattedName}.
 
 	I am happy to let you know, you are ready to start this class.
