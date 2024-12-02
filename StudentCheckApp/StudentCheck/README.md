@@ -5,8 +5,10 @@ Ask name: {firstName}
 Ask age: {age}
 
 if {firstName} = Bob or Sue
+
 	formattedName = Professor {firstName}
 else 
+
 	formattedName = {firstName}
 
 if age < 21 
